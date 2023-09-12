@@ -1,0 +1,7 @@
+---
+- name: Testing dynatrace output
+  hosts: all
+  tasks: 
+    - name: Testing output
+      debug: 
+        msg: "{{ansible_eda.event.payload.eventId}}"
