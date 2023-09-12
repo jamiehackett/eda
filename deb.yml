@@ -1,6 +1,6 @@
 ---
 - name: Testing dynatrace output
-  hosts: all
+  hosts: localhost
   tasks: 
     - name: Testing output
       debug: 
