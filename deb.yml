@@ -4,4 +4,4 @@
   tasks: 
     - name: Testing output
       debug: 
-        msg: "{{ ansible_eda.event.payload.ProblemTitle }}"
+        msg: "{{ ansible_eda.event.payload.State }}"
